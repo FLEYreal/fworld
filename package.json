@@ -1,0 +1,22 @@
+{
+  "name": "types-fworld",
+  "version": "0.0.1",
+  "description": "Shared types for FWorld",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@FLEYreal"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1"
+  }
+}
