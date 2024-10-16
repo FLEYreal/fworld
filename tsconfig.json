@@ -3,13 +3,15 @@
     "module": "commonjs",
     "target": "ES2021",
     "declaration": true,
-    "emitDeclarationOnly": true,
-    "outDir": "dist",
+    "declarationMap": true,
+    "outDir": "./dist",
     "strict": true,
     "experimentalDecorators": true,
-    "strictPropertyInitialization": false
+    "strictPropertyInitialization": false,
+    "emitDeclarationOnly": false
   },
   "include": [
     "src/**/*.ts"
-  ]
+  ],
+  "exclude": ["node_modules", "dist"]
 }

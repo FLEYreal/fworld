@@ -2,4 +2,4 @@
 // ...
 
 // Service: main
-export { UserDto } from "./services/main/auth/user.dto";
+export *from "./services/main/auth/user.dto";
