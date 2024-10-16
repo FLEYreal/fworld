@@ -1,5 +1,5 @@
 {
-  "name": "types-fworld",
+  "name": "@fleyreal/types-fworld",
   "version": "0.0.1",
   "description": "Shared types for FWorld",
   "type": "module",
@@ -7,7 +7,7 @@
     "build": "tsc"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@FLEYreal"
+    "registry": "https://npm.pkg.github.com/@fleyreal"
   },
   "keywords": [],
   "author": "",
