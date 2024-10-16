@@ -1,6 +1,6 @@
 {
-  "name": "@fleyreal/types-fworld",
-  "version": "0.0.2",
+  "name": "@fleyreal/fworld",
+  "version": "0.0.3",
   "description": "Node.js FWorld Package for common use around ecosystem",
   "type": "module",
   "scripts": {
