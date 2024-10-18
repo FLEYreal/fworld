@@ -7,6 +7,7 @@
     "outDir": "./dist",
     "strict": true,
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "strictPropertyInitialization": false,
     "emitDeclarationOnly": false
   },
