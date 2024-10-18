@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "module": "NodeNext",
-    "target": "ES2021",
+    "target": "ESNext",
     "declaration": true,
     "declarationMap": true,
     "outDir": "./dist",
@@ -9,7 +9,8 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "strictPropertyInitialization": false,
-    "emitDeclarationOnly": false
+    "emitDeclarationOnly": false,
+    "useDefineForClassFields": false
   },
   "include": [
     "**/*.ts"
