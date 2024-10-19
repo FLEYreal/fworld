@@ -35,3 +35,4 @@ jobs:
           publish: pnpm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.FW_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.FW_TOKEN }}
