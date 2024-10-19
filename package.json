@@ -1,6 +1,6 @@
 {
   "name": "@fleyreal/fworld",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Node.js FWorld Package for common use around ecosystem",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
