@@ -16,7 +16,7 @@
     "watch": "npm run build -- --watch src"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@fleyreal"
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [],
   "author": "",
