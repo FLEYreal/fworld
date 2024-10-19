@@ -13,11 +13,16 @@
   },
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --clean",
-    "watch": "npm run build -- --watch src"
+    "watch": "pnpm build -- --watch src",
+    "prepare": "pnpm build",
+    "prepublishOnly": "pnpm build"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
