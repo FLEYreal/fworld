@@ -12,7 +12,9 @@
     "sourceMap": true,
     "strictPropertyInitialization": false,
     "emitDeclarationOnly": false,
-    "useDefineForClassFields": false
+    "useDefineForClassFields": false,
+    "noEmit": true,
+    "noUncheckedIndexedAccess": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]

@@ -1,14 +1,14 @@
 {
   "name": "@fleyreal/fworld",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Node.js FWorld Package for common use around ecosystem",
-  "module": "./dist/index.mjs",
   "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
     }
   },
   "scripts": {
@@ -22,6 +22,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.27.9",
     "tsup": "^8.3.0",
     "typescript": "^5.6.3"
   },
