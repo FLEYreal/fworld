@@ -1,10 +1,19 @@
 {
   "name": "@fleyreal/fworld",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Node.js FWorld Package for common use around ecosystem",
-  "type": "module",
+  "module": "./dist/index.mjs",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
   "scripts": {
-    "build": "tsc"
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "watch": "npm run build -- --watch src"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@fleyreal"
@@ -13,6 +22,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "tsup": "^8.3.0",
     "typescript": "^5.6.3"
   },
   "dependencies": {

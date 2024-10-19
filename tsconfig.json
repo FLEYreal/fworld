@@ -1,19 +1,19 @@
 {
   "compilerOptions": {
     "module": "NodeNext",
-    "target": "ESNext",
+    "target": "ES2021",
+    "moduleResolution": "NodeNext",
     "declaration": true,
     "declarationMap": true,
     "outDir": "./dist",
     "strict": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+    "sourceMap": true,
     "strictPropertyInitialization": false,
     "emitDeclarationOnly": false,
     "useDefineForClassFields": false
   },
-  "include": [
-    "**/*.ts"
-  ],
-  "exclude": ["node_modules", "dist"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
